@@ -104,7 +104,7 @@ public class EventDialog : Gtk.Dialog {
             }
 
             var stack = new Gtk.Stack ();
-            stack.add_titled (info_panel, "infopanel", _("General Informations"));
+            stack.add_titled (info_panel, "infopanel", _("General Information"));
             stack.add_titled (location_panel, "locationpanel", _("Location"));
             stack.add_titled (guests_panel, "guestspanel", _("Guests"));
             stack.add_titled (reminder_panel, "reminderpanel", _("Reminders"));
